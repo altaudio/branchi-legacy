@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {Text} from 'ink';
 
 /// Hello world command
-const Hello = ({name}) => <Text>Hello, {name}</Text>;
+const Hello = ({name}) => <Text>Hi, {name}</Text>;
 
 Hello.propTypes = {
 	/// Name of the person to greet
